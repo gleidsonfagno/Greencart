@@ -1,10 +1,6 @@
 # GreenCart 
 - GreatStack
 rafce
-1:21:00 Best Seller
-1:54:00 Bottom Banner
-2:03:00 News Letter
-2:06:00 Footer Section
 2:14:10 Login and Registration Form
 2:25:00 All product page
 2:34:40 Search Feature
