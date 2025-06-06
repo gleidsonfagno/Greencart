@@ -7,9 +7,9 @@ const Allproduct = () => {
     const [filteredProducts, setFilterdProducts] = useState([])
 
     useEffect(() => {
-        if(searchQuery.lenght > 0){
+        if(searchQuery.length > 0){
             setFilterdProducts(products.filter(
-              product => product.name.toLoweCase().icludes(searchQuery.toLoweCase())
+              product => product.name.toLowerCase().includes(searchQuery.toLowerCase())
             ))
         }else {
           setFilterdProducts(products)
