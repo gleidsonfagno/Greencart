@@ -1,7 +1,5 @@
 # GreenCart 
-- GreatStack
 rafce
-2:14:10 Login and Registration Form
 2:25:00 All product page
 2:34:40 Search Feature
 2:37:40 Product Category Page
