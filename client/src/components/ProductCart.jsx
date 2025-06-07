@@ -3,7 +3,6 @@ import { assets } from "../assets/assets";
 import { useAppContext } from "../context/AppContext";
 
 const ProductCard = ({ product }) => {
-  // const [count, setCount] = React.useState(0);
   const { currency, addToCart, removeFromCart, cartItems, navigate } =
     useAppContext();
 
@@ -11,7 +10,7 @@ const ProductCard = ({ product }) => {
 
   return (
     product && (
-      <div onClick={ () => navigate("/products")} className="border border-gray-500/20 rounded-md max-w-54 md:px-4 px-3 py-2">
+      <div onClick={ () => {navigate(`/products/${product.category.toLowerCase()}/${product._id}`); scrollTo(0,0)}} className="border border-gray-500/20 rounded-md max-w-54 md:px-4 px-3 py-2">
         <div className="group cursor-pointer flex items-center justify-center px-2">
           <img
             className="group-hover:scale-105 transition max-w-26 md:max-w-36"

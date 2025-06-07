@@ -1,8 +1,5 @@
 # GreenCart 
 rafce
-2:25:00 All product page
-2:34:40 Search Feature
-2:37:40 Product Category Page
 2:48:35 Click Functionality
 3:16:20 Cart Icon Functionality 
 3:24:10 Cart Page
