@@ -37,7 +37,7 @@ export const AppContextProvider = ({ children }) => {
   const getCartAmount = () => {
     let totalAmount = 0;
     for (const items in cartItems) {
-      let itemIfo = products.fid((product) => product._id === items);
+      let itemIfo = products.find((product) => product._id === items);
       if (cartItems[items] > 0) {
         totalAmount += itemIfo.offerPrice * cartItems[items];
       }
@@ -60,7 +60,7 @@ export const AppContextProvider = ({ children }) => {
   };
 
   // Update Cart Item Quantity
-  const UpdateCartItem = (itemId, quantity) => {
+  const updateCartItem = (itemId, quantity) => {
     let cartData = structuredClone(cartItems);
     cartData[itemId] = quantity;
     setCartItems(cartData);
@@ -95,7 +95,7 @@ export const AppContextProvider = ({ children }) => {
     products,
     currency,
     addToCart,
-    UpdateCartItem,
+    updateCartItem,
     removeFromCart,
     cartItems,
     searchQuery,

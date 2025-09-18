@@ -1,8 +1,5 @@
 # GreenCart 
 rafce
-2:48:35 Click Functionality
-3:16:20 Cart Icon Functionality 
-3:24:10 Cart Page
 3:59:30 Address Page
 4:16:15 My Order
 4:35:20 Seller Dashboard

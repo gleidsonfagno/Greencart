@@ -6,7 +6,7 @@ const ProductCard = ({ product }) => {
   const { currency, addToCart, removeFromCart, cartItems, navigate } =
     useAppContext();
 
-  console.log(product);
+  // console.log(product);
 
   return (
     product && (
